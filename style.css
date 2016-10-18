@@ -1,0 +1,76 @@
+.well {
+	border-color: rgba(50,50,50,.15);
+}
+.note-container {
+	width: 55%;
+	margin: 0 auto;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: #E32636;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	z-index: 2;
+}
+mark {
+	background-color: #FF2400;
+	transition: all 0.3s;
+}
+
+mark:hover {
+	color: #FFF;
+	background-color: #946899;
+}
+
+.note-container-inner {
+	color: #CCB5B3;
+	background: #632726;
+
+	z-index: 3;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+body { 
+	height: 100%;
+	padding-top: 70px;
+	background: linear-gradient(
+		#632726 11%,
+		#946899
+		);
+	background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+	color: #FFE4E1;
+}
+
+.nav, .navbar-default, .navbar-fixed-top, .navbar-brand, .navbar-nav  {
+	background: #632726;
+	border-color: rgba(0,0,0,0);
+}
+
+.navbar-default {
+	opacity: 0;
+	transition: all 0.3s;
+	margin-top: -10px;
+}
+
+.navbar-default:hover {
+	opacity: 1;
+	margin-top: 0px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #CCB5B3;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFE4E1;
+}
