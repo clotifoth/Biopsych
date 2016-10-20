@@ -17,6 +17,8 @@
 	z-index: 2;
 }
 mark {
+  	border-radius: 6px;
+  	background-clip: padding-box;
 	background-color: #FF2400;
 	transition: all 0.3s;
 }
